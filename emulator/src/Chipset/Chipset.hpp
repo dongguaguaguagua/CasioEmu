@@ -81,6 +81,7 @@ namespace casioemu
 		void Break();
 		void Halt();
 		void Stop();
+		bool GetRunningState();
 		void RaiseEmulator();
 		void RaiseNonmaskable();
 		void RaiseMaskable(size_t index);

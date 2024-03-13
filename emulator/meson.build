@@ -15,6 +15,7 @@ executable('emulator', sources: [
 	'src/Peripheral/Miscellaneous.cpp',
 	'src/Peripheral/Peripheral.cpp',
 	'src/Peripheral/BatteryBackedRAM.cpp',
+	'src/Peripheral/BCDCalc.cpp',
 	'src/Data/ModelInfo.cpp',
 	'src/casioemu.cpp',
 	'src/Emulator.cpp',
